@@ -13,3 +13,5 @@ export async function POST(request, { params: { threadId } }) {
 
   return new Response(stream.toReadableStream());
 }
+
+export const runtime = "edge";
